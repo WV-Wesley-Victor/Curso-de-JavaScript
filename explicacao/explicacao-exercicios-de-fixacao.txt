@@ -1,0 +1,94 @@
+Vou explicar cada parte do código passo a passo:
+
+- Módulo 1 - Exercícios:
+
+1 - Verificação de Votação:
+
+    - O programa pergunta a idade do usuário e informa se ele pode votar ou não.
+    - Se a idade fornecida for maior ou igual a 18, a mensagem "Você já pode votar" é exibida, caso contrário, a mensagem "Você não pode votar" é exibida.
+
+2 - Encontrar o Maior Número:
+
+    - O programa lê três números e informa qual deles é o maior.
+    - Os números são armazenados em um array numeros.
+    - O programa inicializa a variável maior com o primeiro número do array.
+    - Um loop for é usado para percorrer os elementos restantes do array.
+    - Se um número maior for encontrado, ele substitui o valor atual de maior.
+    - O resultado é exibido como "O maior numero é {maior}".
+
+3 - Comparação de Idades:
+
+    - O programa lê o nome e a idade de duas pessoas e informa quem é mais velho.
+    - Os nomes e idades são lidos e armazenados em variáveis correspondentes.
+    - Um teste condicional if compara as idades e exibe a mensagem apropriada.
+
+4 - Verificação de Aposentadoria:
+
+    - O programa lê o nome, a idade e o sexo de duas pessoas e informa se elas podem se aposentar ou não.
+    - A função podeSeAposentar verifica se uma pessoa pode se aposentar com base na idade e no sexo.
+    - Os resultados são exibidos com mensagens indicando se a pessoa pode ou não se aposentar.
+
+5 - Tabuada de um Número:
+
+    - O programa lê um número inteiro e exibe sua tabuada de 1 a 10.
+    - Um loop for é usado para iterar de 1 a 10.
+    - A multiplicação é realizada e o resultado é exibido.
+
+6 - Cumprimento Personalizado:
+
+    - O programa lê o nome do usuário e exibe um cumprimento personalizado com base na hora do dia.
+    - A hora atual é obtida usando o objeto Date.
+    - Com base na hora, um cumprimento apropriado é selecionado e exibido.
+
+7 - Verificação de Altura:
+
+    - O programa lê o nome, a altura e o sexo de uma pessoa e informa se ela é considerada alta ou não.
+    - A altura é comparada com os valores médios de altura para homens e mulheres no Brasil.
+    - Com base no sexo e na altura, uma mensagem é exibida.
+
+8 - Cálculo do Índice de Massa Corporal (IMC):
+
+    - O programa lê o peso e a altura de uma pessoa e calcula seu IMC.
+    - A função calcularIMC calcula o IMC com base no peso e na altura.
+    - A função determinarCategoriaIMC determina a categoria do IMC com base nos valores de referência.
+    - Os resultados são exibidos com o IMC e a categoria.
+
+9 - Aumento Salarial:
+
+    - O programa lê o nome e o salário de um funcionário e calcula seu novo salário com um aumento de 10%.
+    - O novo salário é calculado multiplicando o salário original por 1.1.
+
+10 - Exibição de Números:
+
+    - O programa exibe os números de 1 a 10 usando um loop for.
+
+11 - Exibição de Números Pares:
+
+    - O programa exibe os números pares de 0 a 20 usando um loop for e uma verificação de paridade.
+
+12 - Exibição de Números em Ordem Decrescente:
+
+    - O programa exibe os números de 10 a 1 em ordem decrescente usando um loop for.
+
+13 - Cálculo da Soma de Números:
+
+    - O programa calcula a soma dos números de 0 a 100 usando um loop for.
+
+- Módulo 2 - Exercícios:
+
+1 - Soma de Elementos em um Array:
+
+    - O programa recebe um array de números como entrada e retorna a soma de todos os elementos.
+    - Um loop for...of é usado para iterar pelos elementos do array e calcular a soma.
+
+2 - Maior Número em um Array:
+
+    - O programa recebe um array de números como entrada e retorna o maior número presente no array.
+    - Um loop for...of é usado para encontrar o maior número.
+
+3 - Números Pares em um Array:
+
+    - O programa recebe um array de números como entrada e retorna um novo array contendo apenas os números pares.
+    - Um loop for...of é usado para verificar a paridade e adicionar os números pares a um novo array.
+    
+Cada trecho de código realiza uma tarefa específica conforme descrito em seus comentários. Esses programas ilustram a aplicação de estruturas de controle, loops e funções em JavaScript para resolver diferentes problemas.

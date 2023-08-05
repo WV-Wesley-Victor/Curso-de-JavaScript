@@ -1,0 +1,91 @@
+Vou explicar cada parte do código HTML e JavaScript:
+
+1 - Estrutura de Condição if...else:
+
+    - A estrutura de condição if...else permite que você execute diferentes blocos de código com base em uma condição específica.
+    - O primeiro bloco de código é executado se a condição do if for verdadeira. Caso contrário, o bloco de código dentro do else é executado.
+    - Exemplo:
+    const loginAcesso = prompt("Digite seu login:");
+    const senhaAcesso = prompt("Entre com a sua senha:");
+    const loginCorreto = "Wesley";
+    const senhaCorreta = "12345";
+    if (senhaAcesso == senhaCorreta && loginAcesso == loginCorreto) {
+        alert("Legal, acesso liberado!!");
+    } else {
+        alert("Ops... login ou senha errados!!!");
+    }
+
+2 - Estrutura de Condição if:
+
+    - A estrutura if verifica se a condição é verdadeira e executa o bloco de código associado se for.
+    - Exemplo:
+    var idade = 18;
+    if (idade >= 18) {
+        console.log("Você é maior de idade.");
+    }
+
+3 - Estrutura de Condição if...else com else:
+
+    - O else é usado para executar um bloco de código quando a condição do if for falsa.
+    - Exemplo:
+    var idade1 = 15;
+    if (idade1 >= 18) {
+        console.log("Você é maior de idade.");
+    } else {
+        console.log("Você é menor de idade.");
+    }
+
+4 - Estrutura de Condição if...else if...else:
+
+    - else if é usado para adicionar mais condições à estrutura. Cada condição é verificada sequencialmente e, quando uma condição é verdadeira, o bloco de código associado é executado.
+    - Exemplo:
+    var idade = 21;
+    if (idade < 18) {
+        console.log("Você é menor de idade.");
+    } else if (idade >= 18 && idade < 21) {
+        console.log("Você é maior de idade, mas ainda não pode beber.");
+    } else {
+        console.log("Você é maior de idade e pode beber.");
+    }
+
+5 - Estrutura switch:
+
+    - A estrutura switch é usada quando você deseja executar diferentes ações com base em diferentes condições.
+    - Cada case representa um valor possível da expressão que está sendo avaliada, e o código dentro desse bloco é executado se a expressão coincidir com o case.
+    - default é opcional e é executado quando nenhum case corresponder à expressão.
+    - Exemplo:
+    let diaDaSemana = new Date().getDay();
+    let mensagem;
+    switch (diaDaSemana) {
+        case 0:
+            mensagem = "Domingo";
+            break;
+        case 1:
+            mensagem = "Segunda-feira";
+            break;
+        // ...
+        default:
+            mensagem = "Dia inválido";
+    }
+    console.log("Hoje é " + mensagem + ".");
+
+6 - Exemplos de switch:
+
+    - O código apresenta exemplos adicionais de uso da estrutura switch com diferentes situações, como conversão de códigos de erro em mensagens legíveis e avaliação de tipos de veículos.
+    - Exemplos:
+    let codigoErro = 404;
+    let mensagemErro;
+    switch (codigoErro) {
+        case 200:
+            mensagemErro = "OK";
+            break;
+        case 404:
+            mensagemErro = "Página não encontrada";
+            break;
+        // ...
+        default:
+            mensagemErro = "Erro desconhecido";
+    }
+    console.log("Código " + codigoErro + ": " + mensagemErro);
+
+Esse código demonstra diferentes maneiras de usar estruturas de condição if, if...else, if...else if...else e switch para controlar o fluxo do programa com base em condições específicas.

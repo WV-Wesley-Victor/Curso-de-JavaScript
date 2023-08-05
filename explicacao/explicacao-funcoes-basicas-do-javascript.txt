@@ -1,0 +1,35 @@
+vou explicar cada parte do código:
+
+1 - Alerta:
+
+    - alert("Hello World!"); exibe uma caixa de diálogo no navegador com a mensagem "Hello World!".
+
+2 - Caixa de Diálogo Prompt:
+
+    - prompt("Olá Mundo!"); exibe uma caixa de diálogo que permite ao usuário inserir um valor. No entanto, neste caso, o valor inserido não está sendo armazenado ou utilizado posteriormente.
+
+3 - Confirmação:
+
+    - confirm("Hello World"); exibe uma caixa de diálogo com uma pergunta e permite ao usuário responder "OK" ou "Cancelar". No entanto, o resultado dessa confirmação também não está sendo armazenado ou utilizado posteriormente.
+
+4 - Manipulação de Entrada e Saída:
+
+    - let nome = prompt("Digite o seu nome:"); exibe uma caixa de diálogo que solicita ao usuário que insira seu nome e armazena o valor inserido na variável nome.
+    - alert("Olá, " + nome + "!"); exibe uma mensagem de saudação personalizada usando o valor armazenado em nome.
+
+5 - Confirmação com Condição:
+
+    - let confirmacao = confirm("Você deseja continuar?"); exibe uma caixa de diálogo de confirmação e armazena a resposta do usuário (true para OK e false para Cancelar) na variável confirmacao.
+    - Em seguida, um bloco condicional if...else verifica o valor de confirmacao e exibe mensagens diferentes com base na resposta do usuário.
+
+6 - Console Log:
+
+    - let numero = 10; cria uma variável numero com o valor 10.
+    - console.log("O valor do número é: " + numero); exibe uma mensagem no console do navegador ou terminal de desenvolvimento, incluindo o valor da variável numero.
+
+7 - Manipulação de Idade:
+
+    - let idade = parseInt(prompt("Digite a sua idade:")); exibe uma caixa de diálogo que solicita ao usuário que insira sua idade e armazena o valor inserido na variável idade, após converter para um número inteiro usando parseInt().
+    - Um bloco condicional if...else verifica se a idade é maior ou igual a 18 e exibe uma mensagem apropriada com base na condição.
+    
+Basicamente, o código demonstra o uso de funções básicas do JavaScript para interagir com o usuário, solicitar entrada, exibir mensagens e tomar decisões condicionais com base nas respostas do usuário. Isso fornece uma introdução às operações fundamentais de entrada/saída e lógica de programação em JavaScript.
