@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script>
+        // Em JavaScript, existem três principais estruturas de condição: o "if" (se), o "else if" (senão se) e o "else" (senão). Essas estruturas permitem que você execute diferentes blocos de código com base em uma condição específica.
+        const loginAcesso = prompt("Digite seu login:");
+        const senhaAcesso = prompt("Entre com a sua senha:");
+
+        const loginCorreto = "Wesley";
+        const senhaCorreta = "12345";
+
+        if (senhaAcesso == senhaCorreta && loginAcesso == loginCorreto) {
+            //&& = e, || = ou
+            alert("Legal, acesso liberado!!");
+        } else {
+            alert("Ops... login ou senha errados!!!");
+        }
+
+        var idade = 18; //Aqui está um exemplo básico de como usar o "if"
+        if (idade >= 18) {
+            console.log("Você é maior de idade.");
+        }
+
+        var idade1 = 15; //Você também pode adicionar uma estrutura "else" para executar um bloco de código quando a condição do "if" for falsa.
+        if (idade1 >= 18) {
+            console.log("Você é maior de idade.");
+        } else {
+            console.log("Você é menor de idade.");
+        }
+
+        var idade = 21; //Você pode usar o "else if" para adicionar mais condições à sua estrutura.
+        if (idade < 18) {
+            console.log("Você é menor de idade.");
+        } else if (idade >= 18 && idade < 21) {
+            console.log("Você é maior de idade, mas ainda não pode beber.");
+        } else {
+            console.log("Você é maior de idade e pode beber.");
+        }
+
+        //aqui estão três exemplos de uso da estrutura switch e case
+        let diaDaSemana = new Date().getDay(); //Verificando o dia da semana e fornecendo uma mensagem correspondente
+        //O método getDay() da classe Date retorna um inteiro entre 0 e 6, representando o dia da semana, com 0 sendo domingo e 6 sendo sábado.
+        let mensagem;
+        switch (diaDaSemana) {
+            case 0:
+                mensagem = "Domingo";
+                break;
+            case 1:
+                mensagem = "Segunda-feira";
+                break;
+            case 2:
+                mensagem = "Terça-feira";
+                break;
+            case 3:
+                mensagem = "Quarta-feira";
+                break;
+            case 4:
+                mensagem = "Quinta-feira";
+                break;
+            case 5:
+                mensagem = "Sexta-feira";
+                break;
+            case 6:
+                mensagem = "Sábado";
+                break;
+            default:
+                mensagem = "Dia inválido";
+        }
+        console.log("Hoje é " + mensagem + ".");
+
+        let codigoErro = 404; //Conversão de códigos de erro em mensagens legíveis
+        let mensagemErro;
+        switch (codigoErro) {
+            case 200:
+                mensagemErro = "OK";
+                break;
+            case 404:
+                mensagemErro = "Página não encontrada";
+                break;
+            case 500:
+                mensagemErro = "Erro interno do servidor";
+                break;
+            default:
+                mensagemErro = "Erro desconhecido";
+        }
+        console.log("Código " + codigoErro + ": " + mensagemErro);
+
+        let tipoVeiculo = "carro"; //Avaliando diferentes tipos de veículos e exibindo mensagens relacionadas
+        let mensagemTipo;
+        switch (tipoVeiculo) {
+            case "carro":
+                mensagemTipo = "Você escolheu um carro. Aproveite o passeio!";
+                break;
+            case "moto":
+                mensagemTipo = "Uma moto? Cuidado com o vento!";
+                break;
+            case "bicicleta":
+                mensagemTipo = "Ótima escolha para o meio ambiente!";
+                break;
+            default:
+                mensagemTipo = "Tipo de veículo não reconhecido.";
+        }
+        console.log(mensagemTipo);
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wesley Victor Pereira Silva" />
+    <title>Estrutura de condição</title>
+</head>
+
+<body>
+    <h1>Estrutura de condição</h1>
+</body>
+
+</html>

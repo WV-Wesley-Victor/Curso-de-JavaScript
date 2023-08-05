@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script>
+        //​Imagine que as funções normais são como os guerreiros clássicos do JavaScript, firmes e confiáveis. Elas têm um nome e um corpo definidos, e são mestres em realizar tarefas específicas.
+        function agruparCodigo() {
+            var numero = prompt("Digite um numero para somar");
+            numero = parseFloat(numero);
+            var numero1 = prompt("Digite outro numero para somar");
+            numero1 = parseFloat(numero1);
+            var resultado = numero + numero1;
+            alert("O resultado é: " + resultado);
+        }
+        agruparCodigo();
+
+        function somar(num1, num2) {
+            const soma = num1 + num2;
+            console.log("A soma é: " + soma);
+        }
+        somar(10, 50);
+
+        function adicionarNumeros(a, b) {
+            //Aqui está um exemplo de uma função normal em JavaScript que adiciona dois números
+            return a + b;
+        }
+
+        function ehPar(numero) {
+            //Função de Verificação de Número Par
+            return numero % 2 === 0;
+        }
+        const numero = 6;
+        if (ehPar(numero)) {
+            console.log(numero + " é um número par.");
+        } else {
+            console.log(numero + " não é um número par.");
+        }
+
+        function cumprimentar(nome) {
+            //Função de Cumprimento Personalizado
+            return "Olá, " + nome + "! Bem-vindo(a).";
+        }
+        const nomeVisitante = "Maria";
+        console.log(cumprimentar(nomeVisitante)); // Saída: Olá, Maria! Bem-vindo(a).
+
+        function calcularFatorial(n) {
+            //Função de Cálculo de Fatorial
+            if (n === 0 || n === 1) {
+                return 1;
+            } else {
+                return n * calcularFatorial(n - 1);
+            }
+        }
+        const numeroFatorial = 5;
+        const fatorial = calcularFatorial(numeroFatorial);
+        console.log("O fatorial de " + numeroFatorial + " é " + fatorial + "."); // Saída: O fatorial de 5 é 120.
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wesley Victor Pereira Silva" />
+    <title>Funções</title>
+</head>
+
+<body>
+    <h1>Funções</h1>
+</body>
+
+</html>

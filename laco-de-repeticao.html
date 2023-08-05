@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script>
+        let numero = 2; //O laço while é usado quando você não sabe quantas vezes precisa repetir o bloco de código e a repetição é baseada em uma condição.
+        while (numero > 0) {
+            alert("Estou em um loop while");
+            numero--;
+        }
+
+        let i = 0;
+        while (i < 5) {
+            console.log(i);
+            i++;
+        }
+
+        let count = 1; //Utilizando break para interromper um loop while prematuramente
+        while (count <= 10) {
+            console.log(count);
+            if (count === 5) {
+                console.log("Loop interrompido.");
+                break; // Interrompe o loop quando count for igual a 5
+            }
+            count++;
+        }
+
+        let num = 1; //Utilizando continue para pular uma iteração específica
+        while (num <= 10) {
+            if (num % 2 === 0) {
+                num++;
+                continue; // Pula a iteração quando num for par
+            }
+            console.log(num);
+            num++;
+        }
+
+        for (var I = 0; I < 2; I++) {
+            //O laço for é usado quando você sabe exatamente quantas vezes deseja repetir um bloco de código.
+            alert("Estou em um loop for");
+        }
+
+        for (let l = 0; l < 5; l++) {
+            console.log(l);
+        }
+
+        for (let i1 = 1; i1 <= 10; i1++) {
+            // Loop for contando de 1 a 10
+            console.log(i1);
+        }
+
+        const frutas = ["maçã", "banana", "laranja", "uva", "morango"]; // Loop for percorrendo um array e exibindo os elementos
+        for (let i2 = 0; i2 < frutas.length; i2++) {
+            console.log(frutas[i2]);
+        }
+
+        //A declaração do...while cria um laço que executa uma declaração até que o teste da condição for falsa (false). A condição é avaliada depois que o bloco de código é executado, resultando que uma declaração seja executada pelo menos uma vez.
+        let contador1 = 1; //Loop do-while contando de 1 a 5:
+        do {
+            //Neste exemplo, o loop do-while executa primeiro o bloco de código dentro do do, depois verifica a condição no while. Ele imprimirá os números de 1 a 5 no console.
+            console.log(contador1);
+            contador1++;
+        } while (contador1 <= 5);
+
+        let senha; //Loop do-while para solicitar entrada do usuário até que uma condição seja atendida
+        do {
+            senha = prompt("Digite a senha: ");
+        } while (senha !== "123");
+
+        const numeros = [10, 20, 30, 40, 50]; // Loop do-while percorrendo um array e exibindo os elementos
+        let i3 = 0;
+        do {
+            console.log(numeros[i3]);
+            i3++;
+        } while (i3 < numeros.length);
+
+        let numeroDesejado = 6; //Loop do-while para jogar um dado até que um número específico seja obtido
+        let resultado;
+        do {
+            resultado = Math.ceil(Math.random() * 6); //gera um número aleatório entre 1 e 6, simulando o lançamento de um dado de seis lados.
+            console.log("Resultado do dado:", resultado);
+        } while (resultado !== numeroDesejado);
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wesley Victor Pereira Silva" />
+    <title>Laço de repetição</title>
+</head>
+
+<body>
+    <h1>Laço de repetição</h1>
+</body>
+
+</html>
