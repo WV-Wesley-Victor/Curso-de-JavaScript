@@ -3,7 +3,7 @@ Este é um repositório no GitHub que contém as anotações do meu curso de Jav
 
 ![javascript](https://github.com/WV-Wesley-Victor/Curso-de-JavaScript/assets/137107062/a2cdf578-5084-4ed0-bfcf-e472e79dec0c)
 <p align="center">
-  <a href="https://wv-wesley-victor.github.io/Animacao-no-CSS/" target="_blank">Clique aqui para aprender JavaScript</a>
+  <a href="https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm" target="_blank">Clique aqui para aprender JavaScript</a>
 </p>
 
 ## Descrição
