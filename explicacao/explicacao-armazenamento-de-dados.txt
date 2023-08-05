@@ -1,0 +1,40 @@
+Este código HTML e JavaScript aborda conceitos de armazenamento de dados usando variáveis e operações de conversão de tipos. Vou explicar cada parte do código:
+
+1 - Declaração de Variáveis:
+
+    - O código começa declarando variáveis usando as palavras-chave let e var. Variáveis são contêineres nomeados para armazenar valores. Exemplos:
+    let valor1 = 10; // Número inteiro
+    valor1 = "Dez"; // Agora contém uma string
+    valor1 = true; // Agora contém um booleano
+    var nome = "Wesley";
+    var numero = 10;
+
+2 - Uso de const:
+
+    - A palavra-chave const é usada para declarar variáveis que não podem ser alteradas após a atribuição inicial. Tentar reatribuir um valor a uma constante resultará em erro. Exemplo:
+    const numero3 = 11; // Valor constante
+
+3 - Operações com Variáveis:
+
+    - O código realiza operações simples com variáveis, como adição, e mostra os resultados usando alert (pop-up na página).
+    var numero1 = 10;
+    var numero2 = 50;
+    var resultado = numero1 + numero2;
+    alert(resultado);
+
+4 - Entrada do Usuário:
+
+    - O código usa prompt para solicitar ao usuário que insira um número. O valor inserido é armazenado na variável valorInformafo e, em seguida, exibido por meio de um alert.
+    var valorInformafo = prompt("Digite um número");
+    alert(valorInformafo);
+
+5 - Conversão de Tipos:
+    - O código demonstra como converter valores entre diferentes tipos usando funções como parseInt, toString e Number. Essas funções permitem converter números em strings e vice-versa.
+    let numeroTexto = "10";
+    let numero4 = parseInt(numeroTexto); // Converte string para número inteiro
+    let valor = 42;
+    let valorString = valor.toString(); // Converte número para string
+    let texto = "3.14";
+    let numeroDecimal = Number(texto); // Converte string para número decimal
+
+No resumo, o código mostra como declarar e usar variáveis para armazenar diferentes tipos de dados, como números, strings e booleanos. Também ilustra a entrada do usuário e operações básicas com variáveis, além de demonstrar a conversão de valores entre tipos diferentes.
